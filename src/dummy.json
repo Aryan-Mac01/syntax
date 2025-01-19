@@ -32,19 +32,17 @@
   "role": "admin",
   "timeline": [
     {
-      "company_name": "StartupX",
-      "summary": "Contributed to the development of a new social networking platform targeting niche communities.",
+      "company_name": "Central Board of Secondary Education - CBSE",
+      "summary": "",
       "sequence": 6,
-      "startDate": "2023-11-13T00:00:00.000Z",
-      "endDate": "2024-03-13T00:00:00.000Z",
-      "jobTitle": "Backend Developer",
-      "jobLocation": " Los Angeles, CA",
+      "startDate": "2018-03-28T00:00:00.000Z",
+      "endDate": "2019-02-10T00:00:00.000Z",
+      "jobTitle": "High-School",
+      "jobLocation": "",
       "bulletPoints": [
-        "Developed scalable backend services using Python and Django framework.",
-        "\nImplemented user authentication and authorization using OAuth 2.0 and JWT tokens.",
-        "\nDesigned and optimized database schemas for performance and scalability.",
-        "\nImplemented real-time messaging features using WebSockets and Redis.",
-        "\nWorked closely with frontend developers to design APIs and ensure smooth integration with the frontend."
+        "Oxford Model Senior Secondary School - OMSSS, Kanpur",
+        " Specialization : Computer Science",
+        " Percentage - 88%"
       ],
       "forEducation": true,
       "enabled": true,
@@ -90,19 +88,17 @@
       "_id": "65f1fe1e0556c3f887e9dab2"
     },
     {
-      "company_name": "DataTech Solutions",
-      "summary": "Played a key role in developing a data analytics platform for a diverse range of clients.",
+      "company_name": "Central Board of Secondary Education - CBSE",
+      "summary": "",
       "sequence": 2,
-      "startDate": "2024-03-13T00:00:00.000Z",
-      "endDate": "2024-03-22T00:00:00.000Z",
-      "jobTitle": " Full Stack Developer",
-      "jobLocation": " New York, NY",
+      "startDate": "2020-03-25T00:00:00.000Z",
+      "endDate": "2021-02-22T00:00:00.000Z",
+      "jobTitle": "Intermediate",
+      "jobLocation": "",
       "bulletPoints": [
-        "Developed RESTful APIs and integrated third-party services to ingest and process large volumes of data.",
-        "\nDesigned and implemented responsive user interfaces using React.js and Bootstrap.",
-        "\nWorked closely with data scientists to integrate machine learning models into the platform.",
-        "\nOptimized database queries and improved overall system performance.",
-        "\nConducted unit tests and participated in peer code reviews to ensure code quality.\n"
+        "Oxford Model Senior Secondary School - OMSSS, Kanpur",
+        " Specialization : Computer Science",
+        " Percentage - 80%"
       ],
       "forEducation": true,
       "enabled": true,
@@ -132,21 +128,20 @@
       "_id": "65f1fd9e0556c3f887e9d9d8"
     },
     {
-      "company_name": "ThePortfolyo",
+      "company_name": "Bachelor of Technology",
       "summary": "",
       "sequence": 1,
       "icon": {
         "public_id": "1706289470834-siro83",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706289470834-siro83"
       },
-      "startDate": "2023-12-13T00:00:00.000Z",
-      "endDate": "2024-01-25T00:00:00.000Z",
-      "jobTitle": "Software Developer",
-      "jobLocation": "Bangalore",
+      "startDate": "2021-11-21T00:00:00.000Z",
+      "endDate": "2025-08-21T00:00:00.000Z",
+      "jobTitle": "Graduation",
+      "jobLocation": "",
       "bulletPoints": [
-        "Design and build full website",
-        " Optimized Site ",
-        " SEO implemented"
+        "Pranveer Singh Institute of Technology - PSIT, Kanpur",
+        " Specialization : Computer Science & Engineering (Internet of Things) "
       ],
       "forEducation": true,
       "enabled": true,

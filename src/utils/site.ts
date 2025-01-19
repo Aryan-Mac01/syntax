@@ -8,8 +8,8 @@ export const siteConfig = {
   url: site_url,
   ogImage: `${site_url}/_static/og-image.png`,
   links: {
-    twitter: "https://twitter.com/tehseen_type",
-    github: "https://github.com/tehseen01/the-portfolio",
+    linkedin: "https://www.linkedin.com/in/aryan-mishra-931214243/",
+    github: "https://github.com/Aryan-Mac01",
   },
   mailSupport: "aryanmishra3011@gmail.com",
 };
