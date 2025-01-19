@@ -84,13 +84,13 @@ This project is a portfolio website template showcasing skills, projects, and ex
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/tehseen01/the-portfolio.git
+   git clone https://github.com/Aryan-Mac01/syntax.git
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd the-portfolio
+   cd syntax
    ```
 
 3. Install the dependencies:
@@ -132,10 +132,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback, reach out through:
 
-- Email: tehseen.type@gmail.com
-- Twitter: [@tehseen_type](https://twitter.com/tehseen_type)
-- LinkedIn: [Mohd Tehseen](https://linkedin.com/in/tehseen.01)
+- Email: 29651csiot@gmail.com
 
 ---
 
-Built with ❤️ by [Mohd Tehseen]
+Built with ❤️ by [Aryan Mishra]
