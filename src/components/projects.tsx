@@ -21,7 +21,7 @@ function Projects({ projects }: ProjectsProps) {
   const [showMore, setShowMore] = useState(false);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const numProjectToShow = 6;
+  const numProjectToShow = 3;
 
   useEffect(() => {
     const filtered = applyFilters(projects, filterValue);
@@ -94,7 +94,7 @@ function Projects({ projects }: ProjectsProps) {
 
 export default Projects;
 
-const Card = ({ title, image }: Project) => {
+const Card = ({ title, image, description }: Project) => {
   const [hover, setHover] = useState(false);
   const { setVariant } = useVariants();
 
@@ -140,7 +140,7 @@ const Card = ({ title, image }: Project) => {
             animate={{ y: hover ? -10 : 0, opacity: hover ? 1 : 0 }}
             className="absolute text-white/50"
           >
-            Lorem ipsum dolor sit amet.
+            {description.slice(0,50)}
           </motion.p>
         </div>
       </div>

@@ -306,7 +306,7 @@
       "sequence": 6,
       "image": {
         "public_id": "1706285347449-dniw0h",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285347449-dniw0h"
+        "url": "https://nimbusai01.s3.us-east-1.amazonaws.com/Black+Bold+Initial+AI+Business+Logo.png"
       },
       "description": "Nimbus AI is a sophisticated artificial intelligence tool designed to provide accurate and comprehensive answer, increasing the accuracy by 30%",
       "techStack": ["Reactjs "," CSS", " AI ", " JavaScript "],
@@ -320,7 +320,7 @@
       "sequence": 5,
       "image": {
         "public_id": "1706285323287-nt3ya3",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285323287-nt3ya3"
+        "url": "https://nimbusx01.s3.us-east-1.amazonaws.com/Navy+Blue+Minimalist+Aesthetic+Modern+Elegant+Curved+Text+Brand+Business+Circular+Logo%E2%80%A8+(1).png"
       },
       "description": "Developed and launched a robust web-based code editor for HTML, CSS, and JavaScript; boosted front-end workflow efficiency by 40% and streamlined development processes, reducing bug occurrences by 30%",
       "techStack": ["Reactjs ", " Redux-Toolkit ", " TailwindCSS", " Expressjs "],
@@ -334,7 +334,7 @@
       "sequence": 4,
       "image": {
         "public_id": "1706284852474-gh2ng",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284852474-gh2ng"
+        "url": "https://nimbusconnect01.s3.us-east-1.amazonaws.com/Black+White+Minimalist+Initials+Monogram+Jewelry+Logo.png"
       },
       "description": "NimbusConnect is a social platform created using Django and Python that allows users to seamlessly connect and engage with others",
       "techStack": [" Django ", " TailwindCSS"],
@@ -409,6 +409,16 @@
       "enabled": true,
       "platform": "Twitter",
       "url": "https://x.com/AryanMi78858858",
+      "image": {
+        "public_id": "1708718328750-d4jsq.webp",
+        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718328750-d4jsq.webp"
+      },
+      "_id": "65b3e47cb48589dfcae185bd"
+    },
+    {
+      "enabled": true,
+      "platform": "LeetCode",
+      "url": "https://leetcode.com/u/_Aryan-1234/",
       "image": {
         "public_id": "1708718328750-d4jsq.webp",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1708718328750-d4jsq.webp"
