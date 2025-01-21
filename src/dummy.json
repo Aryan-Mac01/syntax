@@ -12,13 +12,13 @@
     "contactEmail": "aryanmishra3011@gmail.com",
     "avatar": {
       "public_id": "portfolio3/1713995155677-122l5x.webp",
-      "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1713995155677-122l5x.webp"
+      "url": "https://mainpic.s3.us-east-1.amazonaws.com/mian1.jpg"
     },
     "alternateAvatars": [
       {
         "_id": "676e772d8a9e1d0a8b0647ca",
         "public_id": "portfolio3/1713996156944-1hro1b.webp",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1713996156944-1hro1b.webp"
+        "url": "https://smallpic01.s3.us-east-1.amazonaws.com/preview.webp"
       }
     ]
   },
@@ -323,7 +323,7 @@
         "url": "https://nimbusx01.s3.us-east-1.amazonaws.com/Navy+Blue+Minimalist+Aesthetic+Modern+Elegant+Curved+Text+Brand+Business+Circular+Logo%E2%80%A8+(1).png"
       },
       "description": "Developed and launched a robust web-based code editor for HTML, CSS, and JavaScript; boosted front-end workflow efficiency by 40% and streamlined development processes, reducing bug occurrences by 30%",
-      "techStack": ["Reactjs ", " Redux-Toolkit ", " TailwindCSS", " Expressjs "],
+      "techStack": ["Reactjs ", " Redux-Toolkit ", " TailwindCSS", " Expressjs ", "TypeScript"],
       "_id": "65b3d8fed017f6b49c778ba9",
       "enabled": true
     },
@@ -343,43 +343,43 @@
     },
     {
       "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 4",
+      "githuburl": "https://github.com/Aryan-Mac01/React-Mastery",
+      "title": "React Mastery",
       "sequence": 3,
       "image": {
         "public_id": "1706284839761-ckccdj",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284839761-ckccdj"
+        "url": "https://reactmastery01.s3.us-east-1.amazonaws.com/1.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "description": "React Mastery is a dedicated platform focused on mastering React. It provides detailed tutorials, hands-on projects, and expert insights to help developers build dynamic, high-performance user interfaces with confidence. ",
+      "techStack": ["Reactjs "],
       "_id": "65b3d728313a9b09a24a1498",
       "enabled": true
     },
     {
       "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 5",
+      "githuburl": "https://github.com/Aryan-Mac01/JavaScript",
+      "title": "JavaScript Mastery",
       "sequence": 2,
       "image": {
         "public_id": "1706284824843-56iakg",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284824843-56iakg"
+        "url": "https://javascriptmastery01.s3.us-east-1.amazonaws.com/White+and+Gray+Simple+Fashion+Logo.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS ", " TailwindCSS"],
+      "description": "JavaScript Mastery is a comprehensive platform designed to help developers enhance their JavaScript skills. It offers in-depth tutorials, real-world projects, and expert guidance to achieve coding excellence.",
+      "techStack": [" JavaScript "],
       "_id": "65b3d719313a9b09a24a148f",
       "enabled": true
     },
     {
       "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 6",
+      "githuburl": "https://github.com/Aryan-Mac01/Image-Selector",
+      "title": "Unsplash captures",
       "sequence": 1,
       "image": {
         "public_id": "1706284812399-jr7rqj",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284812399-jr7rqj"
+        "url": "https://unsplash01.s3.us-east-1.amazonaws.com/1.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "description": "An Image Selector application simplifies browsing and selecting images from a gallery or storage. It offers features like preview, filters, multi-select, and seamless integration for streamlined image management and sharing. ",
+      "techStack": ["Reactjs ", " Nextjs ", " CSS"],
       "_id": "65b3d70d313a9b09a24a1488",
       "enabled": true
     }

@@ -205,16 +205,16 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
       </div>
       <footer className="flex items-center justify-between md:px-8 px-2 py-4 text-sm">
         <Transition>
-          <div>&copy; {new Date().getFullYear()} ThePortfolio</div>
+          <div>&copy; {new Date().getFullYear()} AryanPortfolio</div>
         </Transition>
         <Transition>
           <p>
             developed by @
             <Link
-              href={"https://twitter.com/tehseen_type"}
+              href={"https://www.linkedin.com/in/aryan-mishra-931214243/"}
               className="hover:underline"
             >
-              Aryan
+               Aryan
             </Link>
           </p>
         </Transition>
