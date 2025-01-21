@@ -10,7 +10,7 @@ export interface Portfolio {
   projects: Project[];
   social_handles: SocialHandle[];
   services: Service[];
-  testimonials: Testimonial[];
+  // testimonials: Testimonial[];
   createdAt: string;
   updatedAt: string;
   refreshToken: string;

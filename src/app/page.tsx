@@ -5,7 +5,7 @@ import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
-import Testimonials from "@/components/testimonials";
+// import Testimonials from "@/components/testimonials";
 import Timeline from "@/components/Timeline";
 import { Portfolio } from "@/utils/interface";
 
@@ -14,9 +14,9 @@ export default async function Home() {
 
   const {
     about,
-    testimonials,
     services,
     skills,
+    // testimonials,
     projects,
     social_handles,
     timeline,
@@ -32,7 +32,7 @@ export default async function Home() {
       <Projects projects={projects} />
       <Services services={services} />
       <Timeline timeline={timeline} />
-      <Testimonials testimonials={testimonials} />
+      {/* <Testimonials testimonials={testimonials} /> */}
       <Contact email={email} social_handle={social_handles} about={about} />
     </main>
   );
