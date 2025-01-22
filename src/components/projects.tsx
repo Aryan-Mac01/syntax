@@ -94,7 +94,7 @@ function Projects({ projects }: ProjectsProps) {
 
 export default Projects;
 
-const Card = ({ title, image, description }: Project) => {
+const Card = ({ title, image,}: Project) => {
   const [hover, setHover] = useState(false);
   const { setVariant } = useVariants();
 
@@ -140,7 +140,7 @@ const Card = ({ title, image, description }: Project) => {
             animate={{ y: hover ? -10 : 0, opacity: hover ? 1 : 0 }}
             className="absolute text-white/50"
           >
-            {description.slice(0,40)}
+            Welcome to {title}
           </motion.p>
         </div>
       </div>
