@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from "motion/react";
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
-
+import emailjs from "@emailjs/browser"; 
 import { About, SocialHandle } from "../utils/interface";
 import { cn } from "../utils/cn";
 import Link from "next/link";
@@ -43,24 +43,37 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
     setStatus("SENDING");
 
     try {
-      console.log("Form data:", formData);
-      setTimeout(() => {
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+        to_email: "aryanmishra3011@gmail.com",
+      };
+
+      const response = await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      );
+
+      if (response.status === 200) {
         setStatus("DONE");
+        setStatusText("Message sent successfully!");
         setFormData({
           email: "",
           message: "",
           name: "",
           subject: "",
         });
-        setStatusText("Message sent successfully!");
-      }, 3000);
+      }
     } catch (error: any) {
       setStatus("ERROR");
       setStatusText("Error in sending message: " + error.message);
-      console.error("Error sending message:", error.message);
+      console.error("Error sending message:", error);
     }
   };
-
   useEffect(() => {
     if (status === "DONE" || status === "ERROR") {
       const timer = setTimeout(() => {
@@ -100,8 +113,8 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
           <SlideIn className="text-white/40">Interested in talking,</SlideIn>{" "}
           <br /> <SlideIn>let’s do it.</SlideIn>
         </SectionHeading>
-        <div className="grid md:grid-cols-2 gap-10 md:pt-16">
-          <form className="space-y-4" onSubmit={handleSubmit}>
+        <div className="flex flex-col sm:flex-row justify-between gap-10 md:pt-16">
+          <form className="space-y-4 w-full" onSubmit={handleSubmit}>
             <div className="flex gap-4">
               <Transition className="w-full">
                 <Input
